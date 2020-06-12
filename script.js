@@ -1,5 +1,32 @@
 // Assignment code here
-
+var SpecialCharacters = [
+    '~',
+    '`',
+    '\\',
+    '{',
+    '}',
+    '|',
+    '!',
+    '@',
+    '#',
+    '$',
+    '%',
+    '^',
+    '&',
+    '*',
+    '(',
+    ')',
+    '_',
+    '-',
+    '+',
+    '=',
+    '/',
+    '.',
+    ',',
+    "'",
+    ':',
+    ';'
+];
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
