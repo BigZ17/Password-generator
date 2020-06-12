@@ -1,4 +1,5 @@
-// Assignment code here
+// Array of all special characters for password
+
 var SpecialCharacters = [
     '~',
     '`',
@@ -27,7 +28,7 @@ var SpecialCharacters = [
     ':',
     ';'
 ];
-
+// Array of lowercase for password
 var lowercaseletters = [
     'a',
     'b',
@@ -56,7 +57,7 @@ var lowercaseletters = [
     'z',
 
 ];
-
+// Array of uppercase for password
 var UPPERCASELETTERS = [
     'A',
     'B',
@@ -85,7 +86,7 @@ var UPPERCASELETTERS = [
     'Y',
     'Z'
 ];
-
+// Array of numbers
 var numericcharacters
 ['0',
 '1',
