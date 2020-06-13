@@ -101,7 +101,7 @@ var numericcharacters
 ];
 
 // Get references to the #generate element
-function getpasswordoptions() {
+function getPasswordOptions() {
     var length = parseInt(
         prompt("How many characters would you like for your password")
     );
@@ -110,12 +110,12 @@ function getpasswordoptions() {
         alert('Password lenght must be provided as a number');
         return;
     }
-    
+    // Makes sure their password is aleast 8 characters long
     if (length < 8) {
         alert('Password must be more than 8 characters');
         return;
     }
-    
+    // Makes sure the can't go past 128 character password
     if (length > 128) {
         alert('Password must be less than 128 characters');
         return;
